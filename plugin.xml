@@ -34,8 +34,6 @@
 	<!-- android -->
 	<platform name="android">
 
-		<dependency id="com.google.playservices" url="https://github.com/MobileChromeApps/google-play-services.git"/>
-
 		<config-file target="res/xml/config.xml" parent="/*">
 			<feature name="PushPlugin">
 				<param name="android-package" value="com.plugin.gcm.PushPlugin"/>
@@ -64,6 +62,7 @@
 			</receiver>
 		</config-file>
 
+		<framework src="com.google.android.gms:play-services-gcm:7.5.0" />
 		<source-file src="src/android/com/plugin/gcm/CordovaGCMBroadcastReceiver.java" target-dir="src/com/plugin/gcm/"/>
 		<source-file src="src/android/com/plugin/gcm/PushHandlerActivity.java" target-dir="src/com/plugin/gcm/"/>
 		<source-file src="src/android/com/plugin/gcm/PushPlugin.java" target-dir="src/com/plugin/gcm/"/>
