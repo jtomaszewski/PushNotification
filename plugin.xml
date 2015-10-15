@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
 				xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
-				id="cordova-plugin-push-notification"
-				version="2.5.7">
-=======
 				id="com.phonegap.plugins.PushPlugin"
 				version="2.5.8">
->>>>>>> 9f494462c9b80998409df7047a682aac30efd613
 
 	<name>PushPlugin</name>
 
